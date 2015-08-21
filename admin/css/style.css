@@ -1,0 +1,40 @@
+*{
+	font-family: "黑体";
+}
+body{
+	background: #ddd;
+}
+.login-content{
+	margin-top: 10%;
+}
+.leftnav{
+	background:#ddd;
+	height: 700px; 
+}
+.leftnav ul{
+	padding-top: 20px;
+}
+ul.nav-tabs{
+        width: 95%;
+        border-radius: 4px;
+        border: 1px solid #ddd;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+    }
+    ul.nav-tabs li{
+        margin: 0;
+        width: 100%;
+        border-top: 1px solid #ddd;
+    }
+    
+    ul.nav-tabs li a{
+    	text-align: center;
+        margin: 0;
+        width: 100%;
+        padding: 8px 16px;
+        border-radius: 0;
+    }
+    ul.nav-tabs li.active a, ul.nav-tabs li.active a:hover{
+        color: #fff;
+        background: #0088cc;
+        border: 1px solid #0088cc;
+    }

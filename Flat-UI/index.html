@@ -1,0 +1,537 @@
+<?php include('../lib/common.function.php' );?>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Flat UI - Free Bootstrap Framework and Theme</title>
+    <meta name="description" content="Flat UI Kit Free is a Twitter Bootstrap Framework design and Theme, this responsive framework includes a PSD and HTML version."/>
+
+    <meta name="viewport" content="width=1000, initial-scale=1.0, maximum-scale=1.0">
+
+    <!-- Loading Bootstrap -->
+    <link href="dist/css/vendor/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Loading Flat UI -->
+    <link href="dist/css/flat-ui.min.css" rel="stylesheet">
+    <link href="docs/assets/css/demo.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="dist/js/vendor/html5shiv.js"></script>
+      <script src="dist/js/vendor/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="demo-headline">
+        <h1 class="demo-logo">
+          <div class="logo"></div>
+          胖子 UI
+          <small>免费的用户界面前端框架</small>
+        </h1>
+      </div> <!-- /demo-headline -->
+
+      <h1 class="demo-section-title">基本要素</h1>
+      <h3 class="demo-panel-title">按钮</h3>
+
+      <div class="row demo-row">
+        <div class="col-xs-3">
+          <a href="#fakelink" class="btn btn-block btn-lg btn-primary">Primary Button</a>
+        </div>
+        <div class="col-xs-3">
+          <a href="#fakelink" class="btn btn-block btn-lg btn-warning">Warning Button</a>
+        </div>
+        <div class="col-xs-3">
+          <a href="#fakelink" class="btn btn-block btn-lg btn-default">Default Button</a>
+        </div>
+        <div class="col-xs-3">
+          <a href="#fakelink" class="btn btn-block btn-lg btn-danger">Danger Button</a>
+        </div>
+      </div> <!-- /row -->
+
+      <div class="row demo-row">
+        <div class="col-xs-3">
+          <a href="#fakelink" class="btn btn-block btn-lg btn-success">Success Button</a>
+        </div>
+        <div class="col-xs-3">
+          <a href="#fakelink" class="btn btn-block btn-lg btn-inverse">Inverse Button</a>
+        </div>
+        <div class="col-xs-3">
+          <a href="#fakelink" class="btn btn-block btn-lg btn-info">Info Button</a>
+        </div>
+        <div class="col-xs-3">
+          <a href="#fakelink" class="btn btn-block btn-lg btn-default disabled">Disabled Button</a>
+        </div>
+      </div> <!-- /row -->
+
+      <h3 class="demo-panel-title">输入框</h3>
+      <div class="row">
+        <div class="col-xs-3">
+          <div class="form-group">
+            <input type="text" value="" placeholder="Inactive" class="form-control" />
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <div class="form-group has-error">
+            <input type="text" value="Error" class="form-control" />
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <div class="form-group has-success">
+            <input type="text" value="Success" class="form-control" />
+            <span class="input-icon fui-check-inverted"></span>
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <div class="form-group">
+            <input type="text" value="Disabled" disabled="disabled" class="form-control" />
+          </div>
+        </div>
+      </div> <!-- /row -->
+
+      <div class="row">
+        <div class="col-xs-3">
+          <h3 class="demo-panel-title">下拉菜单</h3>
+
+          <div class="btn-group">
+            <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">基本 <span class="caret"></span></button>
+            <ul role="menu" class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </div><!-- /btn-group -->
+        </div> <!-- /.col-xs-3 -->
+        <div class="col-xs-3">
+          <h3 class="demo-panel-title">选择菜单</h3>
+          <select class="form-control select select-primary" data-toggle="select">
+            <option value="0">Choose hero</option>
+            <option value="1">Spider Man</option>
+            <option value="2">Wolverine</option>
+            <option value="3">Captain America</option>
+            <option value="4" selected>X-Men</option>
+            <option value="5">Crocodile</option>
+          </select>
+        </div> <!-- /.col-xs-3 -->
+        <div class="col-xs-6">
+          <h3 class="demo-panel-title">标签</h3>
+          <div class="tagsinput-primary">
+            <input name="tagsinput" class="tagsinput" data-role="tagsinput" value="School, Teacher, Colleague" />
+          </div>
+        </div> <!-- /.col-xs-6 -->
+      </div> <!-- /.row -->
+
+      <h3 class="demo-panel-title">导航条</h3>
+      <div class="row demo-row">
+        <div class="col-xs-12">
+          <nav class="navbar navbar-inverse navbar-embossed" role="navigation">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-01">
+                <span class="sr-only">响应导航</span>
+              </button>
+              <a class="navbar-brand" href="#">Flat UI</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse-01">
+              <ul class="nav navbar-nav navbar-left">
+                <li><a href="#fakelink">Menu Item<span class="navbar-unread">1</span></a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Messages <b class="caret"></b></a>
+                  <span class="dropdown-arrow"></span>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                  </ul>
+                </li>
+                <li><a href="#fakelink">About Us</a></li>
+               </ul>
+               <form class="navbar-form navbar-right" action="#" role="search">
+                <div class="form-group">
+                  <div class="input-group">
+                    <input class="form-control" id="navbarInput-01" type="search" placeholder="Search">
+                    <span class="input-group-btn">
+                      <button type="submit" class="btn"><span class="fui-search"></span></button>
+                    </span>
+                  </div>
+                </div>
+              </form>
+            </div><!-- /.navbar-collapse -->
+          </nav><!-- /navbar -->
+        </div>
+      </div> <!-- /row -->
+
+      <div class="row">
+        <div class="col-xs-5">
+          <h3 class="demo-panel-title">进度条&amp;滑块</h3>
+          <div class="progress">
+            <div class="progress-bar" style="width: 45%;"></div>
+          </div>
+          <br/>
+          <div class="progress">
+            <div class="progress-bar" style="width: 40%;"></div>
+            <div class="progress-bar progress-bar-warning" style="width: 10%;"></div>
+            <div class="progress-bar progress-bar-danger" style="width: 10%;"></div>
+            <div class="progress-bar progress-bar-success" style="width: 10%;"></div>
+            <div class="progress-bar progress-bar-info" style="width: 10%;"></div>
+
+          </div>
+          <br/>
+          <div id="slider" class="ui-slider">
+            <div class="ui-slider-segment"></div>
+            <div class="ui-slider-segment"></div>
+            <div class="ui-slider-segment"></div>
+          </div>
+        </div> <!-- /sliders -->
+
+        <div class="col-xs-6 col-xs-offset-1">
+          <h3 class="demo-panel-title">分页条</h3>
+          <div class="row demo-navigation">
+            <div class="col-xs-6">
+              <div class="btn-toolbar">
+                <div class="btn-group">
+                  <a class="btn btn-primary" href="#fakelink"><span class="fui-time"></span></a>
+                  <a class="btn btn-primary" href="#fakelink"><span class="fui-photo"></span></a>
+                  <a class="btn btn-primary active" href="#fakelink"><span class="fui-heart"></span></a>
+                  <a class="btn btn-primary" href="#fakelink"><span class="fui-eye"></span></a>
+                </div>
+              </div> <!-- /toolbar -->
+            </div>
+            <div class="col-xs-6 demo-pager">
+              <ul class="pager">
+                <li class="previous">
+                  <a href="#fakelink">
+                    <span class="fui-arrow-left"></span>
+                    <span>All messages</span>
+                  </a>
+                </li>
+                <li class="next">
+                  <a href="#fakelink">
+                    <span class="fui-arrow-right"></span>
+                  </a>
+                </li>
+              </ul> <!-- /pager -->
+            </div>
+          </div> <!-- /demo-navigation -->
+
+          <div class="pagination">
+            <ul>
+              <li class="previous"><a href="#fakelink" class="fui-arrow-left"></a></li>
+              <li class="active"><a href="#fakelink">1</a></li>
+              <li><a href="#fakelink">2</a></li>
+              <li><a href="#fakelink">3</a></li>
+              <li><a href="#fakelink">4</a></li>
+              <li><a href="#fakelink">5</a></li>
+              <li><a href="#fakelink">6</a></li>
+              <li><a href="#fakelink">7</a></li>
+              <li><a href="#fakelink">8</a></li>
+              <li class="next"><a href="#fakelink" class="fui-arrow-right"></a></li>
+            </ul>
+          </div> <!-- /pagination -->
+        </div> <!-- /navigation -->
+      </div> <!-- /row -->
+
+      <div class="row">
+        <div class="col-xs-3">
+          <h3 class="demo-panel-title">复选框</h3>
+          <label class="checkbox" for="checkbox1">
+            <input type="checkbox" value="" id="checkbox1" data-toggle="checkbox">
+            Unchecked
+          </label>
+          <label class="checkbox" for="checkbox2">
+            <input type="checkbox" checked="checked" value="" id="checkbox2" data-toggle="checkbox" checked="">
+            Checked
+          </label>
+          <label class="checkbox" for="checkbox3">
+            <input type="checkbox" value="" id="checkbox3" data-toggle="checkbox" disabled="">
+            Disabled unchecked
+          </label>
+          <label class="checkbox" for="checkbox4">
+            <input type="checkbox" checked="checked" value="" id="checkbox4" data-toggle="checkbox" disabled="" checked="">
+            Disabled checked
+          </label>
+        </div> <!-- /checkboxes col-xs-3 -->
+
+        <div class="col-xs-3">
+          <h3 class="demo-panel-title">单选按钮</h3>
+          <label class="radio">
+            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" data-toggle="radio">
+            Radio is off
+          </label>
+          <label class="radio">
+            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option1" data-toggle="radio" checked="">
+            Radio is on
+          </label>
+
+          <label class="radio">
+            <input type="radio" name="optionsRadiosDisabled" id="optionsRadios3" value="option2" data-toggle="radio" disabled="">
+            Disabled radio is off
+          </label>
+          <label class="radio">
+            <input type="radio" name="optionsRadiosDisabled" id="optionsRadios4" value="option2" data-toggle="radio" checked="" disabled="">
+            Disabled radio is on
+          </label>
+        </div> <!-- /radios col-xs-3 -->
+
+        <div class="col-xs-3">
+          <h3 class="demo-panel-title">开关滑块</h3>
+
+          <table width="100%">
+            <tr>
+              <td width="50%" class="pbm">
+                <input type="checkbox" checked data-toggle="switch" id="custom-switch-01" />
+              </td>
+              <td class="pbm">
+                <input type="checkbox" data-toggle="switch" id="custom-switch-02" />
+              </td>
+            </tr>
+            <tr>
+              <td class="pbm">
+                <div class="bootstrap-switch-square">
+                  <input type="checkbox" checked data-toggle="switch" id="custom-switch-03" data-on-text="<span class='fui-check'></span>" data-off-text="<span class='fui-cross'></span>" />
+                </div>
+              </td>
+              <td class="pbm">
+                <div class="bootstrap-switch-square">
+                  <input type="checkbox" data-toggle="switch" id="custom-switch-04" />
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="checkbox" checked disabled data-toggle="switch" id="custom-switch-5" />
+              </td>
+              <td>
+                <input type="checkbox" checked disabled data-toggle="switch" id="custom-switch-6" />
+              </td>
+            </tr>
+          </table>
+        </div> <!-- /.col-xs-3 -->
+        <div class="col-xs-3">
+          <h3 class="demo-panel-title">分享滑块</h3>
+          <div class="share mrl">
+            <ul>
+              <li>
+                <label class="share-label" for="share-toggle2">Facebook</label>
+                <input type="checkbox" data-toggle="switch" />
+              </li>
+              <li>
+                <label class="share-label" for="share-toggle4">Twitter</label>
+                <input type="checkbox" checked="" data-toggle="switch" />
+              </li>
+              <li>
+                <label class="share-label" for="share-toggle6">Pinterest</label>
+                <input type="checkbox" data-toggle="switch" />
+              </li>
+            </ul>
+            <a href="#" class="btn btn-primary btn-block btn-large">分享</a>
+          </div> <!-- /share -->
+        </div><!-- /.col-xs-3 -->
+      </div> <!-- /.row -->
+
+      <div class="demo-row typography-row">
+      	<div class="demo-title">
+      		<h3 class="demo-panel-title">排版</h3>
+      	</div>
+      	<div class="demo-content">
+      		<div class="demo-type-example">
+	      		<h1><span class="demo-heading-note">标题 1</span>广州大学华软软件学院</h1>
+      		</div>
+      		<div class="demo-type-example">
+	      		<h2><span class="demo-heading-note">标题 2</span>广州大学华软软件学院</h2>
+      		</div>
+      		<div class="demo-type-example">
+	      		<h3><span class="demo-heading-note">标题 3</span>广州大学华软软件学院</h3>
+      		</div>
+      		<div class="demo-type-example">
+	      		<h4><span class="demo-heading-note">标题 4</span>广州大学华软软件学院</h4>
+      		</div>
+      		<div class="demo-type-example">
+	      		<h5><span class="demo-heading-note">标题 5</span>广州大学华软软件学院</h5>
+      		</div>
+      		<div class="demo-type-example">
+	      		<h6><span class="demo-heading-note">标题 6</span>广州大学华软软件学院</h6>
+      		</div>
+      		<div class="demo-type-example">
+	      		<span class="demo-text-note">段落</span>
+	          <p>广州大学华软软件学院是经教育部批准举办的本科层次全日制普通高等学校独立学院，由广州大学与广州盈和投资管理有限公司合作举办，实行董事会领导下的院长负责制，董事长由著名爱国侨领、美国美东华人社团联合会总会主席梁冠军先生出任。华软学院以其严谨的治学态度和规范的教育教学管理，赢得了社会的广泛认可和学生及家长的一致好评。先后获得<strong>“中国十大品牌独立学院”</strong>、<strong>“中国十大优势专业院校”</strong>、<strong>“21世纪最具发展潜力教育机构”</strong>、<strong>“全国教育系统网络示范单位”</strong>、<strong>“广东省最具就业竞争力独立学院”</strong>等荣誉称号。学院纳入全国普通高校统一招生计划，面向全国招收理工类、文史类、美术类考生，目前在校学生近1.2万人。</p>
+      		</div>
+      		<div class="demo-type-example">
+	      		<span class="demo-text-note">图片</span>
+	          <img src="docs/assets/img/example-image.jpg" alt="example-image" class="img-rounded img-responsive">
+	          <p class="img-comment"><strong>注意:</strong> 此图片只做参考使用.</p>
+      		</div>
+      		<div class="demo-type-example">
+	      		<span class="demo-text-note">导语</span>
+						<p class="lead">岁月峥嵘，筚路蓝缕；蓬勃华软，弦歌不辍。2002年9月，迎着雨后的朝阳，华软学院诞生在广州的后花园从化。十多年的风风雨雨，一路改革创新，华软学院声名鹊起，各地学子纷至沓来。.</p>
+      		</div>
+      		<div class="demo-type-example">
+	      		<span class="demo-text-note">小型字体</span>
+	          <p><small>网络技术系成立于2002年，拥有专业教师40多人，其中教授、副教授 8 人，高级工程师4人，博士3人，南粤优秀教师2人，广州市优秀教师2人。 网络技术系遵循“崇本、务实、创新”的办学理念，以现代网络技术为核心，以技术发展和市场需求为导向，以培养学生的实践技能、创新创业精神为目标，培养高素质的应用型人才。 招生专业： 网络技术系现有两个本科专业招生：网络工程专业、信息管理与信息系统专业...</small></p>
+      		</div>
+      	</div><!-- /.demo-content-wide -->
+      </div><!-- /.demo-row -->
+
+      <h3 class="demo-panel-title">彩色面板</h3>
+      <div class="row demo-swatches-row">
+	      <div class="swatches-col">
+		      <div class="pallete-item">
+			      <dl class="palette palette-turquoise">
+                <dt>#1abc9c</dt>
+                <dd>Turquoise</dd>
+              </dl>
+              <dl class="palette palette-green-sea">
+                <dt>#16a085</dt>
+                <dd>Green sea</dd>
+              </dl>
+		      </div>
+		      <div class="pallete-item">
+			      <dl class="palette palette-emerald">
+              <dt>#2ecc71</dt>
+              <dd>Emerald</dd>
+            </dl>
+            <dl class="palette palette-nephritis">
+              <dt>#27ae60</dt>
+              <dd>Nephritis</dd>
+            </dl>
+		      </div>
+		      <div class="pallete-item">
+			      <dl class="palette palette-peter-river">
+              <dt>#3498db</dt>
+              <dd>Peter river</dd>
+            </dl>
+            <dl class="palette palette-belize-hole">
+              <dt>#2980b9</dt>
+              <dd>Belize hole</dd>
+            </dl>
+		      </div>
+		      <div class="pallete-item">
+			      <dl class="palette palette-amethyst">
+              <dt>#9b59b6</dt>
+              <dd>Amethyst</dd>
+            </dl>
+            <dl class="palette palette-wisteria">
+              <dt>#8e44ad</dt>
+              <dd>Wisteria</dd>
+            </dl>
+		      </div>
+		      <div class="pallete-item">
+			      <dl class="palette palette-wet-asphalt">
+              <dt>#34495e</dt>
+              <dd>Wet asphalt</dd>
+            </dl>
+            <dl class="palette palette-midnight-blue">
+              <dt>#2c3e50</dt>
+              <dd>Midnight blue</dd>
+            </dl>
+		      </div>
+		      <div class="pallete-item">
+			      <dl class="palette palette-sun-flower">
+              <dt>#f1c40f</dt>
+              <dd>Sun flower</dd>
+            </dl>
+            <dl class="palette palette-orange">
+              <dt>#f39c12</dt>
+              <dd>Orange</dd>
+            </dl>
+		      </div>
+		      <div class="pallete-item">
+			      <dl class="palette palette-carrot">
+              <dt>#e67e22</dt>
+              <dd>Carrot</dd>
+            </dl>
+            <dl class="palette palette-pumpkin">
+              <dt>#d35400</dt>
+              <dd>Pumpkin</dd>
+            </dl>
+		      </div>
+		      <div class="pallete-item">
+			      <dl class="palette palette-alizarin">
+              <dt>#e74c3c</dt>
+              <dd>Alizarin</dd>
+            </dl>
+            <dl class="palette palette-pomegranate">
+              <dt>#c0392b</dt>
+              <dd>Pomegranate</dd>
+            </dl>
+		      </div>
+		      <div class="pallete-item">
+			      <dl class="palette palette-clouds">
+              <dt>#ecf0f1</dt>
+              <dd>Clouds</dd>
+            </dl>
+            <dl class="palette palette-silver">
+              <dt>#bdc3c7</dt>
+              <dd>Silver</dd>
+            </dl>
+		      </div>
+		      <div class="pallete-item">
+			      <dl class="palette palette-concrete">
+              <dt>#95a5a6</dt>
+              <dd>Concrete</dd>
+            </dl>
+            <dl class="palette palette-asbestos">
+              <dt>#7f8c8d</dt>
+              <dd>Asbestos</dd>
+            </dl>
+		      </div>
+	      </div> <!-- /swatches items -->
+	      <div class="swatches-desc-col">
+		      <h6 class="palette-headline">贴士</h6>
+          <p class="palette-paragraph">
+            颜色 &mdash; 在<strong>胖子UI</strong>里颜色几乎是最重要的的部分. 充分的利用<strong>胖子UI</strong>的颜色给网页添加色彩.
+          </p>
+          <p class="palette-paragraph">
+            我们为您提供便利<strong>颜色面板</strong>预置
+          </p>
+          <p class="palette-paragraph">
+            <strong>不要立体, 不要阴影.</strong>
+          </p>
+	      </div> <!-- /swatches desc -->
+      </div> <!-- /swatches row -->
+
+      <div class="login">
+        <div class="login-screen">
+          <div class="login-icon">
+            <img src="img/login/icon.png" alt="Welcome to Mail App" />
+            <h4>欢迎登陆<small>胖子UI</small></h4>
+          </div>
+
+          <div class="login-form">
+          <form method="post" action="../do.php?a=login">
+            <div class="form-group">
+              <input type="text" class="form-control login-field" value="" placeholder="Enter your username" name="username" />
+              <label class="login-field-icon fui-user" for="login-name"></label>
+            </div>
+
+            <div class="form-group">
+              <input type="password" class="form-control login-field" value="" placeholder="Password" name="password" />
+              <label class="login-field-icon fui-lock" for="login-pass"></label>
+            </div>
+            
+            <!-- <a class="btn btn-primary btn-lg btn-block" href="#">登陆</a> -->
+            <input type="submit" class="btn btn-primary btn-lg btn-block" name="login" value="登陆" />
+            <a class="login-link" href="../reg.php">还没有账号?</a>
+            </form>
+          </div>
+        </div>
+      </div>
+
+        
+    </div> <!-- /container -->
+
+    <footer>
+    
+    </footer>
+
+    <script src="dist/js/vendor/jquery.min.js"></script>
+    <script src="dist/js/flat-ui.min.js"></script>
+    <script src="docs/assets/js/application.js"></script>
+  </body>
+</html>

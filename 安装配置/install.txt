@@ -1,0 +1,5 @@
+新建一个数据库名为fat，导入sql文件即可
+配置信息在config/conn.php中
+用户名:root
+密码:""(空)
+mysql端口默认：3306

@@ -1,0 +1,137 @@
+.column-facebook { width:35px; text-align:center !important}
+.column-twitter { width:35px; text-align:center !important}
+.column-google { width:35px; text-align:center !important}
+.column-pinterest { width:35px; text-align:center !important}
+.column-linkedin { width:35px; text-align:center !important}
+.column-vkontakte { width:35px; text-align:center !important}
+
+
+ul.top-stories {
+	list-style-type:none; list-style-position:inside;
+	padding:0;margin:0;
+}
+	ul.top-stories li { 
+		display:block;
+		clear:both; 
+		padding:5px 0 0 0 !important;
+		margin:0px 0 0 0!important;
+		border-top:1px solid #f0f0f0;
+		border-bottom:0px solid #f0f0f0 !important;
+		height:55px;
+	}
+		ul.top-stories li span.thepos {
+			display: inline-block;
+			float: left;
+			width: 40px;
+			text-align: center;
+			padding-top: 8px;
+			font-size: 19px;
+		}
+		ul.top-stories li a {
+			/* top stories link */
+			display:block;
+			position:relative; 
+			height:50px;
+			overflow:hidden; 
+			text-decoration:none;
+			padding-top:8px;
+		}
+		ul.top-stories li a span.num { 
+			/* number of social shares */
+			color:#fff;
+			background-color:red;
+			padding:0 2px;
+			font-size:10px;
+			position:absolute;top:0px;left:0;
+			font-family:arial;
+		}
+		ul.top-stories li a span.tit { 
+			/* title string */
+			color:#aaa; height:32px;
+			font-size:12px;
+			line-height:16px;
+			display:block; overflow:hidden;
+		}
+		ul.top-stories.nopic li a span.tit, ul.top-stories.nopic li a span.num {
+			position:relative; display:inline;
+		}
+
+#wpwrap h2 a.help { display: inline-block;
+	width: 120px;
+	float: right;
+	height: 24px;
+	padding-left: 27px;
+	background: transparent url(../images/info.png) 0 0 no-repeat;
+	font-size: 12px;
+	line-height: 24px;
+}
+
+.statblock { width:45%; float:left; margin-right:2.5%; margin-top:40px; padding-right:2.5%; border-right:1px solid #f0f0f0;}
+.statblock.last { margin-right:0%; padding-right:0; border-right:0;}
+.statblock ul.top-stories {  width:100%}
+.statblock ul.top-stories li { width:100%;position:relative;}
+.statblock ul.top-stories li a.stat { position:absolute;top:5px;right:0; background:transparent url(../images/diagram.png) 0 0 no-repeat;text-indent:-9999px;display:block;width:24px;height:24px;
+	opacity: .3;
+	filter: alpha(opacity=30);
+	-ms-filter: "alpha(opacity=30)";
+	-khtml-opacity: .3;
+	-moz-opacity: .3;
+}
+#chartpost {position:absolute;top:0;left:0;width:600px;height:300px;display:none;background-color:#fff;border:1px solid #fafafa;padding:10px;margin-left:-300px;left:50%;right:50%}
+#chartpost iframe { width:100%;height:300px;margin:0 auto;}
+#chartpost a { position:absolute;top:5px;right:5px;z-index:99999999;display:block;width:24px;height:24px;line-height:24px;text-decoration:none;background:transparent url(../images/ko.png) 0 0 no-repeat;text-indent:-99999px}
+.statblock ul.top-stories li a span.tit.back { 
+			height:24px;width:65%;white-space:nowrap;text-overflow:ellipsis;
+		}
+.statblock ul.top-stories li a:hover, .statblock ul.top-stories li a:active {color:#aaa!important}
+.statblock ul.top-stories li a i {
+	font-size: 10px;
+	line-height: 24px;
+	display: inline-block;
+	font-style: normal !important;
+	position:relative;top:-3px; font-size:10px;cursor:default;
+}
+.statblock ul.top-stories li a span.stats { 
+			position:relative;top:-3px; font-size:10px;cursor:default;
+			display:inline-block !important; padding:0 0 0 30px; margin:0 5px 0 0; font-weight:normal !important; line-height:24px;}
+.statblock ul.top-stories li a span.stats b { 
+			color:#111;padding:0 30px 0 0;line-height:24px;font-weight:normal !important;
+			height: 24px;
+			display: block;
+		}
+.statblock h3 { white-space:nowrap;text-overflow:ellipsis; overflow:hidden;}
+.statblock ul.top-stories li a span.stats.fire1000 { background:transparent url(../images/fire1000.png) 0 0 no-repeat;}
+.statblock ul.top-stories li a span.stats.fire100 {background:transparent url(../images/fire100.png) 0 0 no-repeat;}
+.statblock ul.top-stories li a span.stats.fire50 {background:transparent url(../images/fire50.png) 0 0 no-repeat;}
+.statblock ul.top-stories li a span.stats b.sale {background:transparent url(../images/up.png) top right no-repeat;font-weight:bold !important;}
+.statblock ul.top-stories li a span.stats b.scende {background:transparent url(../images/down.png) top right no-repeat;}
+
+#legend {overflow:hidden;line-height:24px;margin:10px 0 -10px 0;background-color: #fafafa;padding-left:10px;width:92%;
+	border-color: #f0f0f0;-webkit-border-radius: 3px;border-radius: 3px;border-width: 1px;border-style: solid;}
+#legend div {width:50%;float:left;line-height:24px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;}
+#legend div img {vertical-align:middle}
+#legend div h3 {margin:0;}
+fieldset.submittt p.submit {margin:0 0 1px 0;padding:0}
+fieldset.submittt p.submit input {margin:0;}
+
+		ul.top-stories li a span.img {
+			width:80px; 
+			height:50px; 
+			display:inline-block;
+			margin-right:5px;
+			float:left;
+			position:relative;
+			top:-8px;
+			overflow:hidden;
+			text-align:center;
+		}
+		ul.top-stories li a span.img img { 
+			/*width:auto !important;height:50px !important;*/
+			width:80px !important;
+			max-width:none;
+		}
+		ul.top-stories li a span.img img.long { width:auto !important;height:50px !important;}
+		ul.top-stories li a span.img img.vertical { 
+			width:80px !important;height:auto !important;position:relative;top:50%;
+		}
+.column-facebook { width:35px; text-align:center !important}.column-twitter { width:35px; text-align:center !important}.column-google { width:35px; text-align:center !important}.column-pinterest { width:35px; text-align:center !important}.column-linkedin { width:35px; text-align:center !important}.column-vkontakte { width:35px; text-align:center !important}ul.top-stories {	list-style-type:none; list-style-position:inside;	padding:0;margin:0;}	ul.top-stories li { 		display:block;		clear:both; 		padding:5px 0 0 0 !important;		margin:0px 0 0 0!important;		border-top:1px solid #f0f0f0;		border-bottom:0px solid #f0f0f0 !important;		height:55px;	}		ul.top-stories li span.thepos {			display: inline-block;			float: left;			width: 40px;			text-align: center;			padding-top: 8px;			font-size: 19px;		}		ul.top-stories li a {			/* top stories link */			display:block;			position:relative; 			height:50px;			overflow:hidden; 			text-decoration:none;			padding-top:8px;		}		ul.top-stories li a span.num { 			/* number of social shares */			color:#fff;			background-color:red;			padding:0 2px;			font-size:10px;			position:absolute;top:0px;left:0;			font-family:arial;		}		ul.top-stories li a span.tit { 			/* title string */			color:#aaa; height:32px;			font-size:12px;			line-height:16px;			display:block; overflow:hidden;		}		ul.top-stories.nopic li a span.tit, ul.top-stories.nopic li a span.num {			position:relative; display:inline;		}#wpwrap h2 a.help { display: inline-block;	width: 120px;	float: right;	height: 24px;	padding-left: 27px;	background: transparent url(../images/info.png) 0 0 no-repeat;	font-size: 12px;	line-height: 24px;}.statblock { width:45%; float:left; margin-right:2.5%; margin-top:40px; padding-right:2.5%; border-right:1px solid #f0f0f0;}.statblock.last { margin-right:0%; padding-right:0; border-right:0;}.statblock ul.top-stories {  width:100%}.statblock ul.top-stories li { width:100%;position:relative;}.statblock ul.top-stories li a.stat { position:absolute;top:5px;right:0; background:transparent url(../images/diagram.png) 0 0 no-repeat;text-indent:-9999px;display:block;width:24px;height:24px;	opacity: .3;	filter: alpha(opacity=30);	-ms-filter: "alpha(opacity=30)";	-khtml-opacity: .3;	-moz-opacity: .3;}#chartpost {position:absolute;top:0;left:0;width:600px;height:300px;display:none;background-color:#fff;border:1px solid #fafafa;padding:10px;margin-left:-300px;left:50%;right:50%}#chartpost iframe { width:100%;height:300px;margin:0 auto;}#chartpost a { position:absolute;top:5px;right:5px;z-index:99999999;display:block;width:24px;height:24px;line-height:24px;text-decoration:none;background:transparent url(../images/ko.png) 0 0 no-repeat;text-indent:-99999px}.statblock ul.top-stories li a span.tit.back { 			height:24px;width:65%;white-space:nowrap;text-overflow:ellipsis;		}.statblock ul.top-stories li a:hover, .statblock ul.top-stories li a:active {color:#aaa!important}.statblock ul.top-stories li a i {	font-size: 10px;	line-height: 24px;	display: inline-block;	font-style: normal !important;	position:relative;top:-3px; font-size:10px;cursor:default;}.statblock ul.top-stories li a span.stats { 			position:relative;top:-3px; font-size:10px;cursor:default;			display:inline-block !important; padding:0 0 0 30px; margin:0 5px 0 0; font-weight:normal !important; line-height:24px;}.statblock ul.top-stories li a span.stats b { 			color:#111;padding:0 30px 0 0;line-height:24px;font-weight:normal !important;			height: 24px;			display: block;		}.statblock h3 { white-space:nowrap;text-overflow:ellipsis; overflow:hidden;}.statblock ul.top-stories li a span.stats.fire1000 { background:transparent url(../images/fire1000.png) 0 0 no-repeat;}.statblock ul.top-stories li a span.stats.fire100 {background:transparent url(../images/fire100.png) 0 0 no-repeat;}.statblock ul.top-stories li a span.stats.fire50 {background:transparent url(../images/fire50.png) 0 0 no-repeat;}.statblock ul.top-stories li a span.stats b.sale {background:transparent url(../images/up.png) top right no-repeat;font-weight:bold !important;}.statblock ul.top-stories li a span.stats b.scende {background:transparent url(../images/down.png) top right no-repeat;}#legend {overflow:hidden;line-height:24px;margin:10px 0 -10px 0;background-color: #fafafa;padding-left:10px;width:92%;	border-color: #f0f0f0;-webkit-border-radius: 3px;border-radius: 3px;border-width: 1px;border-style: solid;}#legend div {width:50%;float:left;line-height:24px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;}#legend div img {vertical-align:middle}#legend div h3 {margin:0;}fieldset.submittt p.submit {margin:0 0 1px 0;padding:0}fieldset.submittt p.submit input {margin:0;}		ul.top-stories li a span.img {			width:80px; 			height:50px; 			display:inline-block;			margin-right:5px;			float:left;			position:relative;			top:-8px;			overflow:hidden;			text-align:center;		}		ul.top-stories li a span.img img { 			/*width:auto !important;height:50px !important;*/			width:80px !important;			max-width:none;		}		ul.top-stories li a span.img img.long { width:auto !important;height:50px !important;}		ul.top-stories li a span.img img.vertical { 			width:80px !important;height:auto !important;position:relative;top:50%;		}
